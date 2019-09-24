@@ -1,0 +1,89 @@
+html{
+	background-image: url(images/about.jpg);
+  	height: 100%;
+
+  /* Center and scale the image nicely */
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+
+	/*background-size:100% 100%;*/
+}
+/*@import url(http//welove!comfonts.com/ap!/?family*fontawesome);*/
+body{
+	margin: 0px;
+
+}
+form {
+	font-family: 'Pacifico', cursive;
+  /*border: 3px solid #f1f1f1;*/
+  padding: 20px;
+}
+b, h1{
+	color: #1C2A43;
+	padding: 5px;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+}
+.container{
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	background-color: rgba(36,95,178,0.3);
+	opacity: 0.7;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.container img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60;
+	margin-bottom: 30px;
+}
+input[type="text"],input[type="password"]{
+	width: 300px;
+	height:45px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 20px;
+}
+.input: before{
+	content: "\f007";
+	position: absolute;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	padding-left: 5px;
+	padding-top: 7px;
+	color: #3f4c63;
+}
+.btn-login{
+	padding: 15px 30px;
+	color: #fff;
+	background-color: #2fb1c1;
+	border: none;
+	border-radius: 4px;
+
+}
+a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Pacifico', cursive;
+}
+a:hover{
+	color:#2fb1c1;
+	font-weight: bold;
+
+}
+/*footer{
+	margin: 0px;
+
+}
+footer p{
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+	color:  #2fb1c1;
+	font-family: sans-serif;
+}*/

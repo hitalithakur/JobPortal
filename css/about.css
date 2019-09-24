@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/about.jpg");
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navigation{
+  position: fixed;
+  width: 100%;
+  height: 45px;
+  overflow: hidden;
+    background-color: lightblue;
+    /*#f1f1f1;*/
+    padding: 20px 10px;
+    float: center;
+    /*line-height: 45px;*/
+}
+
+.navigation a{
+  position: relative;
+  display: flex-inline;
+  float: right;
+  color: black;
+  text-align: center;
+  top: 50%;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px; 
+  /*line-height: 25px;*/
+  border-radius: 4px;
+  /*font-family: */
+}
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.nav {
+  float: center;
+}
+
+img,p{
+  display: inline;
+}
+p{
+  /*position: relative;*/
+  font-size: 24px;
+  margin-left: 30px;
+  display: flex-inline; 
+}
+/*s*/
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+	margin: 0 -5px;
+	margin-top: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: rgba(36,95,178,0.3);
+  /*#f1f1f1;*/
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.img1{
+	height: 125px;
+	width: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  font-size: 20px;
+}

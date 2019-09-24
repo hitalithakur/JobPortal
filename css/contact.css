@@ -1,0 +1,24 @@
+.container{
+	width: 700px;
+	height: 570px;
+	text-align: left;/*center;*/
+	background-color:#94d1d4;
+	opacity: 0.7;
+	border-radius: 2%;
+	margin: 0 auto;
+	margin-top: 25px;
+	/*margin-bottom: 25px;*/
+	/*padding-top: 50px;*/
+	padding-left: 20px;
+	/*padding:20px;*/
+}
+
+.label ,h3{
+	font-size:18px;
+	font-family: 'Pacifico', cursive;
+}
+h1{
+	font-size:50px;
+	padding: 0px;
+	font-family: 'Pacifico', cursive;
+}
